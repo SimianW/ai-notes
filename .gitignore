@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# ML / AI artifacts (keep weights, datasets, and training runs out of git)
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.bin
+*.onnx
+*.gguf
+*.h5
+*.hdf5
+*.parquet
+*.arrow
+*.npy
+*.npz
+data/
+datasets/
+checkpoints/
+weights/
+runs/
+wandb/
+mlruns/
+outputs/
+
+# Secrets & environment
+.env
+.env.*
+!.env.example
+
+# OS & editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
